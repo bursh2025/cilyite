@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {published,siteUrl} from '@/lib/seo';export const dynamic='force-static';export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',...(published?{allow:'/'}:{disallow:'/'})},...(published?{sitemap:new URL('/sitemap.xml',siteUrl).href}:{})}}

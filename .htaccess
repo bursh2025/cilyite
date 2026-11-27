@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^obekty/open-space/?$ /obekty/siluet/ [R=301,L]
+RewriteRule ^backend/(config|config\.local|.*store).* - [F,L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^ - [R=404,L]
+</IfModule>
+ErrorDocument 404 /404.html

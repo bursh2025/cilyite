@@ -1,0 +1,1 @@
+import{cp,copyFile,mkdir}from'node:fs/promises';await mkdir('out/backend',{recursive:true});await copyFile('backend/inquiries.php','out/backend/inquiries.php');await copyFile('backend/config.local.php.example','out/backend/config.local.php.example');await copyFile('.htaccess','out/.htaccess');

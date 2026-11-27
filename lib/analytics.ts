@@ -1,0 +1,1 @@
+export type EventName='property_view'|'deal_change'|'filter_change'|'form_open'|'form_success'|'form_error';export function track(name:EventName,context:{objectId?:string;dealType?:string;source?:string}={}){if(typeof window!=='undefined')window.dispatchEvent(new CustomEvent('kontur:analytics',{detail:{name,...context}}));}

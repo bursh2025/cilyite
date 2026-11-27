@@ -1,0 +1,19 @@
+{
+  "status": "discussion-only-not-implemented",
+  "tool": "built-in image_gen",
+  "date": "2026-11-26",
+  "items": [
+    {
+      "id": "01",
+      "name": "План и фотографии",
+      "file": "01-plan-and-photos.png",
+      "requires": "Подтверждение плана и расположения точек съёмки"
+    },
+    {
+      "id": "02",
+      "name": "Сохранить карточку объекта",
+      "file": "02-save-object-card.png",
+      "requires": "Разработка PDF/print представления по подтверждённым данным"
+    }
+  ]
+}

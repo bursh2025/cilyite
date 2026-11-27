@@ -1,0 +1,136 @@
+/* Object pages share the opening spread, typography and controls of the home page. */
+.retail-floor-plans { display: grid; gap: 24px; }
+.retail-floor-plans img { display: block; width: 100%; aspect-ratio: 2.36; object-fit: contain; background: white; }
+.retail-floor-plans a > span { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-block: 12px; border-bottom: 1px solid var(--line); font-size: 14px; }
+.retail-floor-plans strong { font-size: 18px; }
+@media (min-width: 900px) {
+  .retail-floor-plans { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.object-location-grid { display: grid; gap: 24px; }
+.object-location-grid figure { min-width: 0; margin: 0; }
+.object-location-grid :is(img, iframe) { display: block; width: 100%; border: 0; }
+.object-location-grid img { height: auto; }
+.object-location-grid figcaption { margin-top: 10px; color: var(--muted); font-size: 13px; }
+@media (min-width: 900px) {
+  .object-location-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .object-location-grid :is(img, iframe) { height: clamp(320px, 34vw, 550px); }
+  .object-location-grid img { object-fit: contain; background: #eeece4; }
+}
+@media screen {
+  body:has(.object-opening, .offers-page, .contacts-page, .privacy-page) {
+    --ink: #202925;
+    --paper: #f5f2eb;
+    --muted: #536158;
+    --accent: #285441;
+    --line: #bcbfb3;
+
+    .object-crumbs { display: flex; gap: 12px; margin-bottom: 24px; font-size: 13px; color: var(--muted); }
+    .object-opening h1 { font-size: clamp(34px, 3.95vw, 70px); }
+    main, main > .section, .contact-strip, .object-section-nav {
+      color: var(--ink); background: var(--paper); border-color: var(--line);
+    }
+    main > .section, .contact-strip { border-top: 1px solid var(--line); }
+    main > .section { padding-inline: max(5vw, calc((100vw - 1536px) / 2)); }
+    main > section[id], .format-panel[id] { scroll-margin-top: 82px; }
+    .object-section-nav a, .text-button, .feature-icon, .eyebrow, .viewing-grid figure > a { color: var(--accent); }
+    .object-section-nav a:hover, .text-button:hover { color: #183c2b; }
+    .button { background: var(--accent); color: white; border-color: var(--accent); border-radius: 2px; box-shadow: none; }
+    .button:hover { background: #183c2b; }
+    .advantages-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); background: var(--line); border-color: var(--line); }
+    .advantages-grid article, .format-panel, .property-detail .facts, .kulman-location-photo {
+      background: #eeece4; color: var(--ink); border-color: var(--line);
+    }
+    .format-panel .button { white-space: normal; }
+    .advantages-grid h3, .format-panel h2 { color: var(--ink); }
+    .section-heading > p, .advantages-grid p, .property-detail p, .format-panel p, .kulman-location-photo figcaption,
+    .viewing-grid figure :is(figcaption,p,small), .viewing-selected, .viewing-footnote, .dossier-controls > p,
+    .dossier-controls > small, .facade-gallery-grid small { color: var(--muted); }
+    .facts > div, .facade-gallery-grid > button > span, .viewing-checkboxes label, .faq-list details { border-color: var(--line); }
+    .facts dd, .facade-gallery-grid > button, .viewing-checkboxes label, .dossier-checkboxes label { color: var(--ink); }
+    .viewing-checkboxes label:has(input:checked), .viewing-checkboxes b, .dossier-controls .text-button { color: var(--accent); }
+    .viewing-checkboxes input, .dossier-checkboxes input { accent-color: var(--accent); }
+    .viewing-topics .explorer-tabs button { border-color: var(--line); color: var(--accent); }
+    .viewing-topics .explorer-tabs button[aria-pressed=true] { background: var(--accent); color: white; }
+    .dossier-sheet { background: #fffdf7; border: 1px solid var(--line); box-shadow: none; }
+    .inquiry-dialog { color: var(--ink); background: var(--paper); border-color: var(--line); }
+    .inquiry-dialog :is(label,summary,.dialog-close) { color: var(--ink); }
+    .inquiry-dialog :is(input:not([type=checkbox]), select, textarea) { background: #fffdf7; color: var(--ink); border-color: #787e74; }
+    .inquiry-dialog :is(input,textarea)::placeholder { color: var(--muted); }
+    .inquiry-dialog .dialog-close { background: transparent; }
+    .inquiry-dialog .button { color: white; }
+    .footer { color: #eef0f4; background: #101820; }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body:has(.object-opening, .offers-page, .contacts-page, .privacy-page) {
+    .object-opening h1 { font-size: clamp(27px, 7.8vw, 46px); max-width: none; }
+    main > .section { padding-inline: 6%; min-width: 0; }
+    .object-crumbs { margin-bottom: 16px; }
+    .advantages-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .advantages-grid article { padding: 16px 12px; }
+    .advantages-grid h3 { font-size: 18px; overflow-wrap: anywhere; }
+    .section h2 { font-size: clamp(28px, 7.6vw, 42px); overflow-wrap: break-word; }
+    .property-detail, .faq-section, .viewing-grid, .dossier-section, .siluet-formats { grid-template-columns: minmax(0, 1fr); }
+    .object-section-nav { padding-inline: 6%; scrollbar-width: thin; }
+    .facts dd { overflow-wrap: anywhere; }
+  }
+}
+
+.offers-page h1 { font-size: clamp(40px, 5vw, 78px); line-height: 1.12; }
+.offers-lead { max-width: 56ch; margin: 14px 0 32px; font-size: clamp(16px, 1.4vw, 21px); line-height: 1.5; }
+.offers-page .catalog-toolbar { align-items: center; padding: 0 0 10px; border-color: var(--listing-line); }
+.offers-tabs { display: flex; gap: clamp(16px, 3vw, 48px); align-items: stretch; }
+.offers-tabs a { display: flex; align-items: center; min-height: 46px; padding: 5px 0; border-bottom: 3px solid transparent; }
+.offers-tabs a[aria-current=page] { color: var(--listing-accent); font-weight: 600; border-color: currentColor; }
+.offers-page .type-filter { color: var(--listing-muted); font-size: 14px; }
+.offers-page select { color: var(--listing-ink); background: #fffdf7; border: 1px solid var(--listing-line); min-height: 44px; }
+.offers-page .catalog-count { align-items: center; color: var(--listing-muted); padding: 4px 0; min-height: 48px; }
+.offers-page .catalog-count button { min-height: 44px; color: var(--listing-accent); text-decoration: underline; }
+.offers-page figure { margin: 0; }
+.offers-page .card-visual { aspect-ratio: 1.85; background: #e7e6dc; }
+.offers-page .card-visual img { object-position: center top; }
+.offers-page figcaption, .offers-page .catalog-note { font-size: 12px; color: var(--listing-muted); }
+.offers-page figcaption { padding-top: 6px; }
+.offers-page .card-title { padding: 16px 0 12px; gap: 12px; border-color: var(--listing-line); }
+.offers-page .card-title p { color: var(--listing-muted); margin: 0 0 5px; font-size: 14px; }
+.offers-page h2 { font-size: clamp(24px, 2.6vw, 42px); line-height: 1.2; }
+.offers-page .circle-arrow { flex: none; width: 44px; height: 44px; color: white; background: var(--listing-accent); border: 0; }
+.offers-page .property-card:hover .circle-arrow { color: white; background: #183c2b; }
+.offers-facts { font-size: 15px; margin: 12px 0 0; line-height: 1.5; }
+@media (max-width: 760px) {
+  .offers-page h1 { font-size: clamp(34px, 8.4vw, 48px); }
+  .offers-lead { margin: 10px 0 18px; }
+  .offers-page .catalog-toolbar { align-items: stretch; gap: 12px; }
+  .offers-tabs { justify-content: space-between; gap: 6px; font-size: clamp(13px, 3.75vw, 16px); }
+  .offers-page .type-filter select { max-width: 60%; min-width: 0; }
+  .offers-page .card-visual { aspect-ratio: 1.65; }
+  .offers-page h2 { font-size: clamp(22px, 6.2vw, 36px); }
+  .offers-page .card-title { gap: 8px; }
+}
+
+.contacts-page h1 { font-size: clamp(40px, 5vw, 78px); line-height: 1.12; }
+.contact-intro { max-width: 54ch; font-size: clamp(16px, 1.4vw, 21px); line-height: 1.5; margin: 14px 0 32px; }
+.contact-addresses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 64px); }
+.contact-addresses article { padding: 22px 0; border-top: 1px solid var(--listing-line); }
+.contact-addresses article > h2 { font-size: clamp(25px, 2.8vw, 46px); line-height: 1.2; }
+.contact-addresses address { margin-top: 12px; font-style: normal; font-size: 18px; }
+.contact-addresses article > div { margin-top: 14px; }
+.contact-followup { border-top: 1px solid var(--listing-line); display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.contact-followup p { color: var(--listing-muted); font-size: 14px; }
+body:has(.contacts-page) > .contact-strip { display: none; }
+@media (max-width: 760px) {
+  .contact-addresses { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .contact-addresses article { padding: 16px 0 20px; }
+  .contact-addresses article > div { margin-top: 4px; }
+  .contact-addresses address { margin-top: 6px; font-size: 16px; }
+  .contact-followup { display: block; padding-top: 16px; }
+  .contact-intro { margin-bottom: 18px; }
+}
+
+.privacy-copy { max-width: 68ch; margin-inline: auto; }
+.privacy-page .listing-kicker { color: var(--listing-accent); margin: 24px 0 12px; }
+.privacy-page h1 { font-size: clamp(35px, 5vw, 74px); line-height: 1.14; }
+.privacy-copy section { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--listing-line); }
+.privacy-page h2 { color: var(--listing-accent); font-size: clamp(23px, 2.5vw, 34px); line-height: 1.28; }
+.privacy-copy section p { margin: 12px 0 0; font-size: clamp(16px, 1.2vw, 19px); line-height: 1.65; }

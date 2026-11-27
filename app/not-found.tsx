@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="error-page"><span className="eyebrow">Не тот адрес</span><h1>404</h1><p>Такой страницы нет. Подходящее пространство можно найти в каталоге.</p><Link className="button" href="/pomeshcheniya/">Вернуться к объектам ↗</Link></section>}

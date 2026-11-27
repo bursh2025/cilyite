@@ -1,0 +1,23 @@
+.property-caption {padding:10px 0;color:var(--listing-muted);font-size:12px}
+.property-caption ul {display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 8px;padding:0;list-style:none}
+.property-caption li {display:flex;align-items:center;gap:5px;font-size:14px;color:var(--listing-ink)}
+.property-caption li b {border-radius:50%;width:22px;height:22px;display:grid;place-items:center;color:white}
+.carousel-expand,.property-viewer header button {padding:8px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit}
+.property-viewer[open] {position:fixed;inset:0;margin:0;width:100%;height:100dvh;max-width:none;max-height:none;padding:12px;box-sizing:border-box;border:0;background:#18201e;color:white;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:8px}
+.property-viewer header {position:static;display:flex;align-items:center;justify-content:space-between;background:transparent;color:white}
+.listing-paper .property-viewer .carousel-frame {aspect-ratio:auto;min-height:0}
+.property-viewer .carousel-slide>img {object-fit:contain}
+.property-viewer .property-caption,.property-viewer .property-caption li {color:white}
+body:has(.property-viewer[open]) {overflow:hidden}
+.photo-track {position:absolute;inset:0;display:flex;transition:transform .28s ease-out;touch-action:pan-y pinch-zoom;user-select:none}
+.photo-cell {position:relative;flex:0 0 100%;height:100%;padding:0;border:0;background:#303733;cursor:zoom-in;overflow:hidden}
+.photo-cell:active {cursor:grabbing}
+.photo-cell img {display:block;width:100%;height:100%;object-fit:cover}
+.photo-cell:has(svg) img,.property-viewer .photo-cell img {object-fit:contain}
+.property-viewer .photo-cell {cursor:grab;background:transparent}
+.office-photo-gallery {min-width:0;width:100%}
+.office-photo-gallery > .listing-link {margin-top:10px}
+.kulman-photo-gallery .property-carousel {max-width:1024px;margin-inline:auto}
+.property-viewer .original-toggle {margin-left:auto;margin-right:10px;min-width:44px;min-height:44px;display:grid;place-items:center}
+.property-viewer .original-toggle[aria-pressed=true] {background:#e4ecdd;color:#21442f}
+@media(prefers-reduced-motion:reduce){.photo-track{transition:none}}

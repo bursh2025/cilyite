@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-26",
+  "publicationDate": "2026-11-10",
+  "sources": {
+    "market": {
+      "label": "Комаровский рынок · Яндекс Карты",
+      "url": "https://yandex.by/maps/org/komarovskiy_rynok/1243559017/"
+    },
+    "metro": {
+      "label": "Метро · Яндекс Карты",
+      "url": "https://yandex.by/maps/org/ploshchad_yakuba_kolasa/5942379422/"
+    },
+    "development": {
+      "label": "Наша Ніва · 10.11.2026",
+      "url": "https://nashaniva.com/ru/408955"
+    }
+  },
+  "development": {
+    "name": "Атмосфера / Манифест",
+    "status": "Комплекс развивается поэтапно",
+    "plannedYear": 2027,
+    "footfall": null
+  },
+  "footfall": {
+    "measured": false,
+    "note": "Открытых измерений потока у входов в наши объекты не найдено. Посещаемость рынка не равна потоку у помещения."
+  }
+}

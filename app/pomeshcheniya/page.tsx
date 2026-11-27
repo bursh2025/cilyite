@@ -1,0 +1,1 @@
+import Catalog from '@/components/Catalog';import {metadata} from '@/lib/seo';export const generateMetadata=()=>metadata('Подбор коммерческих помещений','Сравните торговые помещения, офис и отдельное здание в центре Минска. Покупка и аренда: условия по запросу.','/pomeshcheniya/');export default function Page(){return <Catalog/>}

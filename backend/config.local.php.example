@@ -1,0 +1,2 @@
+<?php
+return ['bot_token'=>'','chat_id'=>'','message_thread_id'=>null,'app_url'=>'','enabled'=>false,'privacy_ready'=>false,'storage_dir'=>''];

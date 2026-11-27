@@ -1,0 +1,812 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-26",
+  "project": "Коммерческая недвижимость Минска",
+  "rules": {
+    "pricePublication": false,
+    "generatedImagesRequireCaption": true,
+    "unconfirmedObjectBindingMustNotPopulateSeo": true
+  },
+  "assets": [
+    {
+      "id": "siluet-office-01",
+      "kind": "user-photo",
+      "source": "user-upload",
+      "originalName": "Силуэт 1 без текста.jpg",
+      "originalPath": "assets/source/user/Силуэт 1 без текста.jpg",
+      "sourceAbsolutePath": "C:/Users/a.ikhsanau/Desktop/конкорс-рефы/Силуэт 1 без текста.jpg",
+      "sha256": "e79debdc4ec8258ccdf181acfbfa1876c9df835caae460e1b1eb175874fae659",
+      "sourceDetectedFormat": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "objectId": null,
+      "buildingReference": "siluet",
+      "suggestedObjectId": "siluet",
+      "bindingStatus": "needs-confirmation",
+      "verificationStatus": "user-supplied-not-independently-verified",
+      "alt": "Офисное помещение: открытая площадь, колонны и светлые окна",
+      "requiredCaption": null,
+      "isAiGenerated": false,
+      "mustPreserveAiDisclosure": false,
+      "facts": null,
+      "usage": "photo-of-supplied-office-not-retail-micro-unit",
+      "variants": [
+        {
+          "path": "public/media/siluet/siluet-office-view-01-640.webp",
+          "url": "/media/siluet/siluet-office-view-01-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 40974
+        },
+        {
+          "path": "public/media/siluet/siluet-office-view-01-960.webp",
+          "url": "/media/siluet/siluet-office-view-01-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 78504
+        },
+        {
+          "path": "public/media/siluet/siluet-office-view-01-1280.webp",
+          "url": "/media/siluet/siluet-office-view-01-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "format": "webp",
+          "bytes": 122438
+        }
+      ],
+      "suggestedFormat": "office"
+    },
+    {
+      "id": "siluet-floor-03-plan",
+      "kind": "user-plan",
+      "source": "user-upload",
+      "originalName": "План 3 этаж ТЦ Силуэт для презентации.png",
+      "originalPath": "assets/source/user/План 3 этаж ТЦ Силуэт для презентации.png",
+      "sourceAbsolutePath": "C:/Users/a.ikhsanau/Desktop/конкорс-рефы/План 3 этаж ТЦ Силуэт для презентации.png",
+      "sha256": "ab5a256a7153c2c2806b66625bb19a4ddb2b93574c46f98e4eac57c2e0231b30",
+      "sourceDetectedFormat": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "objectId": null,
+      "buildingReference": "siluet",
+      "suggestedObjectId": "siluet",
+      "bindingStatus": "needs-confirmation",
+      "verificationStatus": "user-supplied-not-independently-verified",
+      "alt": "Предоставленный план офисного помещения 128,2 м²; файл обозначен как 3-й этаж ТЦ Силуэт",
+      "requiredCaption": null,
+      "isAiGenerated": false,
+      "mustPreserveAiDisclosure": false,
+      "facts": {
+        "areaM2": 128.2,
+        "areaEvidence": "printed-on-plan",
+        "floorCandidate": 3,
+        "floorEvidence": "filename-only",
+        "labelOnPlan": "офисное помещение",
+        "printedNumber": "1",
+        "uninterpretedAnnotation": "и.п. 593",
+        "objectAssociationConfirmed": false
+      },
+      "usage": "readable-plan-not-retail-floor-01-or-02",
+      "variants": [
+        {
+          "path": "public/media/siluet/siluet-floor-03-office-plan.png",
+          "url": "/media/siluet/siluet-floor-03-office-plan.png",
+          "width": 1280,
+          "height": 853,
+          "format": "png",
+          "bytes": 109435
+        }
+      ],
+      "suggestedFormat": "office"
+    },
+    {
+      "id": "siluet-office-02",
+      "kind": "user-photo",
+      "source": "user-upload",
+      "originalName": "Силуэт 2 без текста.png",
+      "originalPath": "assets/source/user/Силуэт 2 без текста.png",
+      "sourceAbsolutePath": "C:/Users/a.ikhsanau/Desktop/конкорс-рефы/Силуэт 2 без текста.png",
+      "sha256": "6bd7ef67d94d00f92429c13e214c63b2c1748f4025223cc4f3d77801bb1fb43b",
+      "sourceDetectedFormat": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "objectId": null,
+      "buildingReference": "siluet",
+      "suggestedObjectId": "siluet",
+      "bindingStatus": "needs-confirmation",
+      "verificationStatus": "user-supplied-not-independently-verified",
+      "alt": "Офисное помещение: ряд окон, колонны и существующие перегородки",
+      "requiredCaption": null,
+      "isAiGenerated": false,
+      "mustPreserveAiDisclosure": false,
+      "facts": null,
+      "usage": "photo-of-supplied-office-not-retail-micro-unit",
+      "variants": [
+        {
+          "path": "public/media/siluet/siluet-office-view-02-640.webp",
+          "url": "/media/siluet/siluet-office-view-02-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 51400
+        },
+        {
+          "path": "public/media/siluet/siluet-office-view-02-960.webp",
+          "url": "/media/siluet/siluet-office-view-02-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 100360
+        },
+        {
+          "path": "public/media/siluet/siluet-office-view-02-1280.webp",
+          "url": "/media/siluet/siluet-office-view-02-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "format": "webp",
+          "bytes": 162126
+        }
+      ],
+      "suggestedFormat": "office"
+    },
+    {
+      "id": "siluet-facade-ai",
+      "kind": "user-ai-illustration",
+      "source": "user-upload",
+      "originalName": "Здание Силуэт.png",
+      "originalPath": "assets/source/user/Здание Силуэт.png",
+      "sourceAbsolutePath": "C:/Users/a.ikhsanau/Desktop/конкорс-рефы/Здание Силуэт.png",
+      "sha256": "b2fde5a2cc1bdf83e14676947a5daf88cf28e8855c9b49567d0145d98c40d12c",
+      "sourceDetectedFormat": "jpeg",
+      "width": 1280,
+      "height": 853,
+      "objectId": null,
+      "buildingReference": "siluet",
+      "suggestedObjectId": "siluet",
+      "bindingStatus": "needs-confirmation",
+      "verificationStatus": "user-supplied-not-independently-verified",
+      "alt": "Предоставленная ИИ-визуализация фасада ТЦ Силуэт",
+      "requiredCaption": "Визуализация фасада",
+      "isAiGenerated": true,
+      "mustPreserveAiDisclosure": true,
+      "facts": null,
+      "usage": "illustration-only-not-current-condition-evidence",
+      "variants": [
+        {
+          "path": "public/media/siluet/siluet-facade-ai-640.webp",
+          "url": "/media/siluet/siluet-facade-ai-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 59164
+        },
+        {
+          "path": "public/media/siluet/siluet-facade-ai-960.webp",
+          "url": "/media/siluet/siluet-facade-ai-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 112580
+        },
+        {
+          "path": "public/media/siluet/siluet-facade-ai-1280.webp",
+          "url": "/media/siluet/siluet-facade-ai-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "format": "webp",
+          "bytes": 176704
+        }
+      ]
+    },
+    {
+      "id": "open-space-concept",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/open-space-concept.png",
+      "sourceReferenceIds": [
+        "siluet-office-01"
+      ],
+      "sha256": "f68c6030dae36aa98049455b0d45a3f331f90923273754ea9582accfc19273f7",
+      "width": 1536,
+      "height": 1024,
+      "objectId": null,
+      "suggestedObjectId": "siluet",
+      "bindingStatus": "concept-derived-from-user-office-not-confirmed-listing",
+      "verificationStatus": "not-current-condition-evidence",
+      "isAiGenerated": true,
+      "requiredCaption": "Вариант меблировки. Визуализация",
+      "alt": "Визуализация возможной меблировки предоставленного офисного помещения",
+      "usage": "separate-concept-section-only-never-current-photo-gallery",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "variants": [
+        {
+          "path": "public/media/concepts/open-space-concept-640.webp",
+          "url": "/media/concepts/open-space-concept-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 48304
+        },
+        {
+          "path": "public/media/concepts/open-space-concept-960.webp",
+          "url": "/media/concepts/open-space-concept-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 100728
+        },
+        {
+          "path": "public/media/concepts/open-space-concept-1536.webp",
+          "url": "/media/concepts/open-space-concept-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 234028
+        }
+      ],
+      "suggestedFormat": "office"
+    },
+    {
+      "id": "siluet-hero-v2",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/siluet-hero-v2.png",
+      "sourceReferenceIds": [
+        "siluet-facade-ai"
+      ],
+      "isAiGenerated": true,
+      "objectId": "siluet",
+      "requiredCaption": "Визуализация",
+      "alt": "Визуализация фасада ТЦ Силуэт по предоставленному референсу",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "variants": [
+        {
+          "path": "public/media/hero/siluet-night-640.webp",
+          "url": "/media/hero/siluet-night-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 71082
+        },
+        {
+          "path": "public/media/hero/siluet-night-960.webp",
+          "url": "/media/hero/siluet-night-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 134706
+        },
+        {
+          "path": "public/media/hero/siluet-night-1536.webp",
+          "url": "/media/hero/siluet-night-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 264370
+        }
+      ],
+      "sha256": "27ffce350fccddcf104e8f6a0ecd598ad782300079b307eabefd8d605eabb477",
+      "width": 1536,
+      "height": 1024,
+      "verificationStatus": "generated-concept-not-current-condition-evidence"
+    },
+    {
+      "id": "hero-static-v3",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/hero-static-v3.png",
+      "sha256": "d3fb9715e89505336c26691b9b6227fd0e2e531ea5639d7f3ccb7718df4a3910",
+      "width": 1448,
+      "height": 1086,
+      "isAiGenerated": true,
+      "objectId": null,
+      "suggestedObjectId": null,
+      "verificationStatus": "concept-not-current-condition-evidence",
+      "requiredCaption": "Визуализация",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "variants": [
+        {
+          "path": "public/media/hero/hero-static-v3-640.webp",
+          "url": "/media/hero/hero-static-v3-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 58692
+        },
+        {
+          "path": "public/media/hero/hero-static-v3-960.webp",
+          "url": "/media/hero/hero-static-v3-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 114722
+        },
+        {
+          "path": "public/media/hero/hero-static-v3-1448.webp",
+          "url": "/media/hero/hero-static-v3-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 212764
+        }
+      ]
+    },
+    {
+      "id": "kulman-neutral-v1",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/kulman-neutral-v1.png",
+      "sha256": "00e9e2762f2a1fe65adecc559de9c65b028d4f6047931459c94882fcf765d844",
+      "width": 1448,
+      "height": 1086,
+      "isAiGenerated": true,
+      "objectId": null,
+      "suggestedObjectId": "kulman",
+      "verificationStatus": "concept-not-current-condition-evidence",
+      "requiredCaption": "Архитектурная иллюстрация",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "variants": [
+        {
+          "path": "public/media/hero/kulman-neutral-v1-640.webp",
+          "url": "/media/hero/kulman-neutral-v1-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 27270
+        },
+        {
+          "path": "public/media/hero/kulman-neutral-v1-960.webp",
+          "url": "/media/hero/kulman-neutral-v1-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 57982
+        },
+        {
+          "path": "public/media/hero/kulman-neutral-v1-1448.webp",
+          "url": "/media/hero/kulman-neutral-v1-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 129296
+        }
+      ]
+    },
+    {
+      "id": "hero-static-v4",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/hero-static-v4-siluet-original.png",
+      "sourceReferenceIds": [
+        "siluet-facade-ai",
+        "hero-static-v3"
+      ],
+      "isAiGenerated": true,
+      "requiredCaption": "Визуализация",
+      "verificationStatus": "source-based-concept-not-documentary",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "04729991f3f78473380fbf74bc9e793fa93996357ef4e552c558bd326505f50e",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "variants": [
+        {
+          "path": "public/media/hero/hero-static-v4-640.webp",
+          "url": "/media/hero/hero-static-v4-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 52108
+        },
+        {
+          "path": "public/media/hero/hero-static-v4-960.webp",
+          "url": "/media/hero/hero-static-v4-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 95452
+        },
+        {
+          "path": "public/media/hero/hero-static-v4-1448.webp",
+          "url": "/media/hero/hero-static-v4-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 178218
+        }
+      ]
+    },
+    {
+      "id": "kulman-aerial-v2",
+      "kind": "generated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/kulman-aerial-v2.png",
+      "isAiGenerated": true,
+      "requiredCaption": "Визуализация по референсам",
+      "verificationStatus": "satellite-reference-based-concept-not-documentary",
+      "sourceReferencePaths": [
+        "assets/source/user/kulman-maps/kulman-context.png",
+        "assets/source/user/kulman-maps/kulman-footprint.png"
+      ],
+      "sourceEvidence": {
+        "displayedAddress": "улица Кульман, 1к4, Минск",
+        "coordinatesFromScreenshot": [
+          53.916785,
+          27.581567
+        ],
+        "addressNormalization": "Before publication confirm relationship of 1к4 and brief address 1/4; route remains unchanged",
+        "facadeDetails": "not established by supplied aerial screenshots"
+      },
+      "sha256": "3c66edd56a21d1369697644199da53cae7a43705fbe01e5ca3b8e1b2a51a60ce",
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "path": "public/media/hero/kulman-aerial-v2-640.webp",
+          "url": "/media/hero/kulman-aerial-v2-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 104472
+        },
+        {
+          "path": "public/media/hero/kulman-aerial-v2-960.webp",
+          "url": "/media/hero/kulman-aerial-v2-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 225710
+        },
+        {
+          "path": "public/media/hero/kulman-aerial-v2-1448.webp",
+          "url": "/media/hero/kulman-aerial-v2-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 459058
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    },
+    {
+      "id": "kulman-highlight-v3",
+      "kind": "generated-annotated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/kulman-highlight-v3.png",
+      "objectId": "kulman",
+      "isAiGenerated": true,
+      "requiredCaption": "Корпус 1к4 выделен · визуализация",
+      "verificationStatus": "schematic-identification-from-user-reference-not-boundary-survey",
+      "sourceReferencePaths": [
+        "assets/source/user/kulman-maps/kulman-corpus-1k4.png",
+        "assets/generated/kulman-aerial-v2.png",
+        "assets/source/user/kulman-maps/kulman-footprint.png"
+      ],
+      "width": 1448,
+      "height": 1086,
+      "sha256": "b9ea6780bba2dcf265a01958b7202d0a0a6cb0882ee55f9a1dced1c2bb53b4dc",
+      "variants": [
+        {
+          "path": "public/media/hero/kulman-highlight-v3-640.webp",
+          "url": "/media/hero/kulman-highlight-v3-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 115576
+        },
+        {
+          "path": "public/media/hero/kulman-highlight-v3-960.webp",
+          "url": "/media/hero/kulman-highlight-v3-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 236850
+        },
+        {
+          "path": "public/media/hero/kulman-highlight-v3-1448.webp",
+          "url": "/media/hero/kulman-highlight-v3-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 452048
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    },
+    {
+      "id": "kulman-facade-1",
+      "kind": "ai-enhanced-user-photo",
+      "source": "user-supplied-facade-edited-with-image_gen",
+      "objectId": "kulman",
+      "originalPath": "assets/source/user/Кульман 2.png",
+      "editedPath": "assets/generated/kulman-facade-1.png",
+      "isAiEdited": true,
+      "requiredCaption": "Обработанное фото",
+      "originalPublicUrl": "/media/kulman/original-1.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0e371985b93c575e04a59d7e11a87d49e9e128459d672b5e173cf380121bf119",
+      "variants": [
+        {
+          "path": "public/media/kulman/facade-1-640.webp",
+          "url": "/media/kulman/facade-1-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 50160
+        },
+        {
+          "path": "public/media/kulman/facade-1-960.webp",
+          "url": "/media/kulman/facade-1-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 109288
+        },
+        {
+          "path": "public/media/kulman/facade-1-1536.webp",
+          "url": "/media/kulman/facade-1-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 273316
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    },
+    {
+      "id": "kulman-facade-2",
+      "kind": "ai-enhanced-user-photo",
+      "source": "user-supplied-facade-edited-with-image_gen",
+      "objectId": "kulman",
+      "originalPath": "assets/source/user/Кульман 3.png",
+      "editedPath": "assets/generated/kulman-facade-2.png",
+      "isAiEdited": true,
+      "requiredCaption": "Обработанное фото",
+      "originalPublicUrl": "/media/kulman/original-2.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3b901172b6a4aa1e53d804d5ffce221ed419d70d3f9b02c073efc937e2b19c82",
+      "variants": [
+        {
+          "path": "public/media/kulman/facade-2-640.webp",
+          "url": "/media/kulman/facade-2-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 52240
+        },
+        {
+          "path": "public/media/kulman/facade-2-960.webp",
+          "url": "/media/kulman/facade-2-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 111448
+        },
+        {
+          "path": "public/media/kulman/facade-2-1536.webp",
+          "url": "/media/kulman/facade-2-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 293246
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    },
+    {
+      "id": "kulman-facade-3",
+      "kind": "ai-enhanced-user-photo",
+      "source": "user-supplied-facade-edited-with-image_gen",
+      "objectId": "kulman",
+      "originalPath": "assets/source/user/Кульман 4.png",
+      "editedPath": "assets/generated/kulman-facade-3.png",
+      "isAiEdited": true,
+      "requiredCaption": "Обработанное фото",
+      "originalPublicUrl": "/media/kulman/original-3.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c4f1ba2ee0b6b999c85d02cd46a6d54ab75a5adac4460312395bb2f91c0ac5ff",
+      "variants": [
+        {
+          "path": "public/media/kulman/facade-3-640.webp",
+          "url": "/media/kulman/facade-3-640.webp",
+          "width": 640,
+          "height": 427,
+          "format": "webp",
+          "bytes": 65454
+        },
+        {
+          "path": "public/media/kulman/facade-3-960.webp",
+          "url": "/media/kulman/facade-3-960.webp",
+          "width": 960,
+          "height": 640,
+          "format": "webp",
+          "bytes": 138976
+        },
+        {
+          "path": "public/media/kulman/facade-3-1536.webp",
+          "url": "/media/kulman/facade-3-1536.webp",
+          "width": 1536,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 325102
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    },
+    {
+      "id": "district-aerial-v1",
+      "kind": "ai-generated-reference-illustration",
+      "source": "user-provided-Yandex-screenshot",
+      "originalPath": "assets/source/user/kulman-maps/district-reference.png",
+      "editedPath": "assets/generated/district-aerial-v1.png",
+      "requiredCaption": "Визуализация по снимку карт · контуры и метки схематичны",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "objects": [
+        "siluet",
+        "kulman"
+      ],
+      "variants": [
+        {
+          "url": "/media/district/district-aerial-v1-800.webp",
+          "width": 800
+        },
+        {
+          "url": "/media/district/district-aerial-v1-1200.webp",
+          "width": 1200
+        },
+        {
+          "url": "/media/district/district-aerial-v1-1588.webp",
+          "width": 1588
+        }
+      ],
+      "notes": "Approximate manually aligned overlays, no cadastral precision. Do not infer roof area from total floor area. Kulman 6204.6 m2 is total building floor area; Siluet 4.4–90.2 m2 is unit range, not total building area."
+    },
+    {
+      "id": "office-3d-cutaway-v1",
+      "kind": "ai-generated-architectural-visualization",
+      "objectId": "siluet",
+      "editedPath": "assets/generated/office-3d-cutaway-v1.png",
+      "references": [
+        "assets/source/user/Силуэт 1 без текста.jpg",
+        "assets/source/user/План 3 этаж ТЦ Силуэт для презентации.png"
+      ],
+      "requiredCaption": "3D-визуализация · геометрия условная",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "notes": "Not a measured model. Binding of source plan and camera positions to the office remains unconfirmed.",
+      "variants": [
+        {
+          "url": "/media/concepts/office-3d-cutaway-v1-640.webp",
+          "width": 640
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v1-960.webp",
+          "width": 960
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v1-1536.webp",
+          "width": 1536
+        }
+      ]
+    },
+    {
+      "id": "office-3d-cutaway-v2",
+      "kind": "ai-generated-furnishing-concept",
+      "objectId": "siluet",
+      "editedPath": "assets/generated/office-3d-cutaway-v2.png",
+      "reference": "assets/generated/office-3d-cutaway-v1.png",
+      "requiredCaption": "Вариант обустройства · 3D-визуализация",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "notes": "User authorized alternate furnishings to communicate scale. Not a measured model or certified workplace capacity.",
+      "variants": [
+        {
+          "url": "/media/concepts/office-3d-cutaway-v2-640.webp",
+          "width": 640
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v2-960.webp",
+          "width": 960
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v2-1536.webp",
+          "width": 1536
+        }
+      ]
+    },
+    {
+      "id": "office-3d-cutaway-v3",
+      "kind": "ai-generated-corporate-office-concept",
+      "objectId": "siluet",
+      "editedPath": "assets/generated/office-3d-cutaway-v3.png",
+      "requiredCaption": "Вариант обустройства · 3D-визуализация",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "notes": "Compact standard office furniture; previous residential lounge removed. Workplace count and geometry illustrative, not certified.",
+      "variants": [
+        {
+          "url": "/media/concepts/office-3d-cutaway-v3-640.webp",
+          "width": 640
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v3-960.webp",
+          "width": 960
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v3-1536.webp",
+          "width": 1536
+        }
+      ]
+    },
+    {
+      "id": "office-3d-cutaway-v4",
+      "kind": "ai-generated-empty-office-volume",
+      "objectId": "siluet",
+      "editedPath": "assets/generated/office-3d-cutaway-v4.png",
+      "requiredCaption": "Объём помещения · 3D-визуализация",
+      "promptDocument": "docs/image-generation-prompts.md",
+      "notes": "All movable furniture removed at user request. Illustrative geometry, not a measured survey.",
+      "variants": [
+        {
+          "url": "/media/concepts/office-3d-cutaway-v4-640.webp",
+          "width": 640
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v4-960.webp",
+          "width": 960
+        },
+        {
+          "url": "/media/concepts/office-3d-cutaway-v4-1536.webp",
+          "width": 1536
+        }
+      ]
+    },
+    {
+      "id": "kulman-highlight-v4",
+      "kind": "generated-annotated-visualization",
+      "source": "built-in-image_gen",
+      "originalPath": "assets/generated/kulman-highlight-v4.png",
+      "objectId": "kulman",
+      "isAiGenerated": true,
+      "requiredCaption": "Корпус 1к4 выделен · визуализация",
+      "verificationStatus": "schematic-identification-from-user-reference-not-boundary-survey",
+      "sourceReferencePaths": [
+        "assets/source/user/kulman-maps/kulman-corpus-1k4.png",
+        "assets/generated/kulman-aerial-v2.png",
+        "assets/source/user/kulman-maps/kulman-footprint.png",
+        "assets/generated/kulman-highlight-v3.png"
+      ],
+      "width": 1448,
+      "height": 1086,
+      "sha256": "0634444a59cd81731fb930183217fc98b0606dd9830d452616307f0278ea27d8",
+      "variants": [
+        {
+          "path": "public/media/hero/kulman-highlight-v4-640.webp",
+          "url": "/media/hero/kulman-highlight-v4-640.webp",
+          "width": 640,
+          "height": 480,
+          "format": "webp",
+          "bytes": 101644
+        },
+        {
+          "path": "public/media/hero/kulman-highlight-v4-960.webp",
+          "url": "/media/hero/kulman-highlight-v4-960.webp",
+          "width": 960,
+          "height": 720,
+          "format": "webp",
+          "bytes": 200274
+        },
+        {
+          "path": "public/media/hero/kulman-highlight-v4-1448.webp",
+          "url": "/media/hero/kulman-highlight-v4-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "format": "webp",
+          "bytes": 359808
+        }
+      ],
+      "promptDocument": "docs/image-generation-prompts.md"
+    }
+  ]
+}

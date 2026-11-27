@@ -1,0 +1,63 @@
+{
+  "updatedAt": "2026-11-26",
+  "sources": [
+    {
+      "id": "original-brief",
+      "source": "ТЕХНИЧЕСКОЕ ЗАДАНИЕ 20.11.2026.docx",
+      "entities": [
+        "siluet",
+        "open-space",
+        "kulman"
+      ],
+      "fields": [
+        "address",
+        "area",
+        "floors",
+        "description"
+      ],
+      "status": "source-provided-reconfirm-before-release"
+    },
+    {
+      "id": "user-images",
+      "source": "content/media-manifest.json",
+      "fields": [
+        "media",
+        "office-plan-area"
+      ],
+      "status": "user-supplied-binding-pending"
+    },
+    {
+      "id": "district-context-2026-11-26",
+      "source": "content/neighborhood.json",
+      "fields": [
+        "market-address",
+        "metro-name-and-line",
+        "development-status-and-plan"
+      ],
+      "status": "public-web-reviewed",
+      "checkedAt": "2026-11-26",
+      "notes": "Latest located publication about Atmosfera/Manifest is dated 2026-11-10. Opening in 2027 is a plan. ONT original could not be fetched; site cites accessible Nasha Niva report. Measured entrance footfall not found."
+    }
+  ],
+  "unresolved": [
+    "Привязка офиса и плана 3-го этажа",
+    "Сроки и условия продажи/аренды",
+    "Домен и оператор данных",
+    "Проверка схематичных контуров двух зданий на сгенерированной карте; не являются кадастровой границей",
+    "Измерение пешеходного и автомобильного потока у конкретных входов"
+  ],
+  "grouping": {
+    "confirmedBy": "user instruction 2026-11-26",
+    "objects": [
+      "siluet",
+      "kulman"
+    ],
+    "aliases": {
+      "open-space": {
+        "objectId": "siluet",
+        "format": "office"
+      }
+    },
+    "displayAddress": "Кульман, 1к4"
+  }
+}
