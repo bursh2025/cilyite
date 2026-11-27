@@ -1,4 +1,5 @@
 'use client';
+import { withBasePath } from '../lib/site-path';
 
 import {useRef, useState} from 'react';
 import Inquiry from './Inquiry';
@@ -6,8 +7,8 @@ import Inquiry from './Inquiry';
 import PropertyCarousel from './PropertyCarousel';
 import {officePhotos} from '@/lib/property-slides';
 
-const model = '/media/concepts/office-3d-cutaway-v4-1536.webp';
-const plan = '/media/siluet/siluet-floor-03-office-plan.png';
+const model = withBasePath('/media/concepts/office-3d-cutaway-v4-1536.webp');
+const plan = withBasePath('/media/siluet/siluet-floor-03-office-plan.png');
 const modes = [['3d', '3D-вид'], ['plan', 'Схема']] as const;
 
 export default function OfficeExplorer({home = false}: {home?: boolean}) {

@@ -1,4 +1,5 @@
 'use client';
+import { withBasePath } from '../lib/site-path';
 
 import {useState} from 'react';
 import {properties} from '@/lib/content';
@@ -15,7 +16,7 @@ export default function ObjectDossier({object}: {object: string}) {
   const property = properties.find(item => item.id === object)!;
   const [included, setIncluded] = useState({photo: true, facts: true, questions: true});
   const [status, setStatus] = useState('');
-  const path = '/obekty/' + property.slug + '/';
+  const path = withBasePath('/obekty/' + property.slug + '/');
   const kulman = object === 'kulman';
 
   async function share() {
@@ -44,7 +45,7 @@ export default function ObjectDossier({object}: {object: string}) {
         </header>
         <div className={styles.body}>
           {included.photo && <figure className={styles.photo}>
-            <img src={kulman ? '/media/kulman/facade-2-960.webp' : '/media/siluet/siluet-facade-ai-960.webp'}
+            <img src={kulman ? withBasePath('/media/kulman/facade-2-960.webp') : withBasePath('/media/siluet/siluet-facade-ai-960.webp')}
               alt={'Фасад · ' + property.name} width="960" height="640" loading="lazy"/>
             <figcaption><span>{kulman ? 'Обработанное фото' : 'Визуализация фасада'}</span>
               <a href={mapLinks[kulman ? 'kulman' : 'siluet']}>На карте ↗</a></figcaption>

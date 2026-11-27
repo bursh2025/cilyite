@@ -1,4 +1,5 @@
 'use client';
+import { withBasePath } from '../lib/site-path';
 
 import {useEffect, useRef, useState} from 'react';
 import Link from 'next/link';
@@ -11,6 +12,8 @@ const objects = [
   {id: 'siluet', name: 'ТЦ «Силуэт»', address: 'Веры Хоружей, 1А', href: '/obekty/siluet/', number: '01', x: 525, y: 745},
   {id: 'kulman', name: 'Административный корпус', address: 'Кульман, 1к4', href: '/obekty/kulman-1-4/', number: '02', x: 703, y: 654},
 ] as const;
+
+const districtImage = (width: number) => withBasePath('/media/district/district-aerial-v1-' + width + '.webp');
 
 export default function DistrictMap() {
   const [current, setCurrent] = useState<(typeof objects)[number]>(objects[0]);
@@ -41,13 +44,13 @@ export default function DistrictMap() {
         </div>
         <div className="location-map" ref={viewport} tabIndex={0} role="region" aria-label="Схема района, доступна горизонтальная прокрутка">
           <div className="district-canvas">
-            <img src="/media/district/district-aerial-v1-1588.webp"
-              srcSet="/media/district/district-aerial-v1-800.webp 800w, /media/district/district-aerial-v1-1200.webp 1200w, /media/district/district-aerial-v1-1588.webp 1588w"
+            <img src={districtImage(1588)}
+              srcSet={[800, 1200, 1588].map(width => districtImage(width) + ' ' + width + 'w').join(', ')}
               sizes="(max-width:760px) 660px, 67vw" width="1588" height="990" loading="lazy"
               alt="Квартал у Комаровского рынка, улиц Веры Хоружей и Кульман" />
             <svg className="district-buildings" viewBox={districtViewBox} aria-label="Здания на схеме">
               {objects.map(o => (
-                <a key={o.id} href={o.href} onMouseEnter={() => setCurrent(o)} onFocus={() => setCurrent(o)}
+                <a key={o.id} href={withBasePath(o.href)} onMouseEnter={() => setCurrent(o)} onFocus={() => setCurrent(o)}
                   aria-label={'Открыть объект: ' + o.name + ', ' + o.address}
                   className={'district-building' + (current === o ? ' active' : '')}>
                   <polygon points={districtRoofs[o.id]} />

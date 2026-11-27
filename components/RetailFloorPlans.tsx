@@ -1,3 +1,4 @@
+import { withBasePath } from '../lib/site-path';
 const floors = [
   {number: 1, width: 1280, height: 542},
   {number: 2, width: 1153, height: 462},
@@ -14,7 +15,7 @@ export default function RetailFloorPlans() {
       </div>
       <div className="retail-floor-plans">
         {floors.map(({number, width, height}) => {
-          const src = `/media/siluet/retail-floor-${number}.png`;
+          const src = withBasePath(`/media/siluet/retail-floor-${number}.png`);
           return (
             <a key={number} href={src} target="_blank" rel="noreferrer">
               <img src={src} width={width} height={height} loading="lazy"
